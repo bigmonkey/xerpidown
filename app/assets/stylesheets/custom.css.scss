@@ -1,0 +1,46 @@
+// Variables
+$pageBackground: #fff;
+$mainColor: #666;
+
+/*limited reset*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align:baseline;
+	font: inherit;
+}
+
+/*html5 display rule*/
+address, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, menu, section, summary {
+	display: block;
+}
+
+// ********** main tag settings
+
+html, body, section{
+    height: 100%;
+    width: 1200px;
+}
+
+body > section {
+	height: auto;
+	min-height: 100%;
+}
+
+body {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	background: $pageBackground;
+	color: $mainColor;
+	margin: 5em auto;	
+	text-align: center;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
